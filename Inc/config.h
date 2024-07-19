@@ -75,10 +75,10 @@
 // left sensor board cable. keep cable short, use shielded cable, use ferrits, stabalize voltage in nunchuck, use the right one of the 2 types of nunchucks, add i2c pullups. use original nunchuck. most clones does not work very well.
 //#define CONTROL_NUNCHUCK            // use nunchuck as input. disable DEBUG_SERIAL_USART3!
 
-// ###### MOTOR TEST MODE ######
-// slowly move both wheels forward and backward, ignoring all inputs
+###### MOTOR TEST MODE ######
+slowly move both wheels forward and backward, ignoring all inputs
 #define CONTROL_MOTOR_TEST
-#define CONTROL_MOTOR_TEST_MAX_SPEED 300         // sweep slowly from -MAX_SPEED to MAX_SPEED (0 - 1000)
+#define CONTROL_MOTOR_TEST_MAX_SPEED 300          sweep slowly from -MAX_SPEED to MAX_SPEED (0 - 1000)
 
 // ############################### DRIVING BEHAVIOR ###############################
 
